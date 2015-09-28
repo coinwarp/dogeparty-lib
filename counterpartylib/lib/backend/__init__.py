@@ -9,7 +9,7 @@ from decimal import Decimal as D
 
 import bitcoin as bitcoinlib
 import bitcoin.rpc as bitcoinlib_rpc
-from bitcoin.core import CBlock
+from altcoin.core import CAltcoinBlock
 
 from counterpartylib.lib import util
 from counterpartylib.lib import script
@@ -45,7 +45,7 @@ def getblockhash(blockcount):
     return BACKEND().getblockhash(blockcount)
 def getblock(block_hash):
     block_hex = BACKEND().getblock(block_hash)
-    return CBlock.deserialize(util.unhexlify(block_hex))
+    return CAltcoinBlock.deserialize(util.unhexlify(block_hex))
 
 def searchrawtransactions(address, unconfirmed=False):
     return BACKEND().searchrawtransactions(address, unconfirmed=unconfirmed)

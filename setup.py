@@ -171,6 +171,7 @@ required_packages = [
     'pysha3',
     'colorlog',
     'python-bitcoinlib',
+    'python-altcoinlib',
     'xmltodict'
 ]
 
