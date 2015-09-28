@@ -302,10 +302,10 @@ def initialise(db):
     cursor.execute('''CREATE INDEX IF NOT EXISTS
                       id_idx ON assets (asset_id)
                    ''')
-    cursor.execute('''SELECT * FROM assets WHERE asset_name = ?''', ('BTC',))
+    cursor.execute('''SELECT * FROM assets WHERE asset_name = ?''', ('DOGE',))
     if not list(cursor):
-        cursor.execute('''INSERT INTO assets VALUES (?,?,?)''', ('0', 'BTC', None))
-        cursor.execute('''INSERT INTO assets VALUES (?,?,?)''', ('1', 'XCP', None))
+        cursor.execute('''INSERT INTO assets VALUES (?,?,?)''', ('0', 'DOGE', None))
+        cursor.execute('''INSERT INTO assets VALUES (?,?,?)''', ('1', 'XDP', None))
 
     # Consolidated
     send.initialise(db)
