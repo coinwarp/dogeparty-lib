@@ -7,10 +7,10 @@ UNIT = 100000000
 """This structure is used throughout the test suite to populate transactions with standardized and tested data."""
 DEFAULT_PARAMS = {
     'addresses': [
-        ['mn6q3dS2EnDUx3bmyWc6D4szJNVGtaR7zc', 'cPdUqd5EbBWsjcG9xiL1hz8bEyGFiz4SW99maU9JgpL9TEcxUf3j', '0282b886c087eb37dc8182f14ba6cc3e9485ed618b95804d44aecc17c300b585b0'],
-        ['mtQheFaSfWELRB2MyMBaiWjdDm6ux9Ezns', 'cQ897jnCVRrawNbw8hgmjMiRNHejwzg4KbzdMCzc91iaTif8ReqX', '0319f6e07b0b8d756156394b9dcf3b011fe9ac19f2700bd6b69a6a1783dbb8b977'],
-        ['mnfAHmddVibnZNSkh8DvKaQoiEfNsxjXzH', 'cRNnyC1h5qjv3tHkkt74Y5wowknM1BBDK5Ft2hj5SzfV3mgwPvC3', '0378ee11c3fb97054877a809ce083db292b16d971bcdc6aa4c8f92087133729d8b'],
-        ['mqPCfvqTfYctXMUfmniXeG2nyaN8w6tPmj', 'cNNz8RhmTQufdmCKsCYjxPy43J6AxrH1wnAjutrxbeQs7Cy4C9q1', '037af2e06061b54cdfe3657bbc8496d69000b822e2db0c86ccbe376346a700b833']
+        ['niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'cnKDs9myJWNePfXqvSdjTQAkNNPJon74qrKAm1W2XGqkgWo1Wh3x', '030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb'],
+        ['nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'ckau3NP8vKsqDiyySyT2ZagoaTPFRXW3yRZTRyL9ydXdmXGVLxc6', '034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b'],
+        ['nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH', 'cfgXNw1ChWVB3hsf7ky1MALDKGYGcRjTqBRZyASUQX1bnmbykLNV', '022d0102ab74698b3dd0c17f4bc1f4c7bf042a93aebe74894458ff91c3b5a293bc'],
+        ['nW8dXfYakP7aSyPuzEcAdFyrjFXimPkvct', 'cgmvXApSFjjnAPkxNZ5wykzsFGxFjjimvGJNPtL9MscWmmSAg6yr', '038d8b64c7880994f04127c2a2a790c41f587ede08646a22471f474c5e544bc8fc']
     ],
     'quantity': UNIT,
     'small': round(UNIT / 2),
@@ -18,11 +18,11 @@ DEFAULT_PARAMS = {
     'fee_required': 900000,
     'fee_provided': 1000000,
     'fee_multiplier': .05,
-    'unspendable': 'mvCounterpartyXXXXXXXXXXXXXXW24Hef',
-    'burn_start': 310000,
-    'burn_end': 4017708,
+    'unspendable': 'ndogepartyxxxxxxxxxxxxxxxxxxwpsZCH',
+    'burn_start': 124678,
+    'burn_end':  26280000,
     'burn_quantity': int(.62 * UNIT),
-    'default_block': 310000 + 501   # Should be called `block_index`.
+    'default_block': 124678 + 501   # Should be called `block_index`.
 }
 DEFAULT_PARAMS['privkey'] = {addr: priv for (addr, priv, pub) in DEFAULT_PARAMS['addresses']}
 DEFAULT_PARAMS['pubkey'] = {addr: pub for (addr, priv, pub) in DEFAULT_PARAMS['addresses']}
