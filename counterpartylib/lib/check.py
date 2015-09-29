@@ -21,13 +21,13 @@ CHECKPOINTS_MAINNET = {
     337000: {'ledger_hash': '4cd7586c934d8f9a839e8a010cf0023e0971db34cd138d454b60a7d0d222032f', 'txlist_hash': '20f01e01b7a7456a13b89bc49d6493a0b052ad98fb9c7f2ea5d953d6c600622f'},
     338000: {'ledger_hash': '78e947190c76bf3a5156d47e098871241b8710694f5f71f2b7d0b9db9adb9dd7', 'txlist_hash': '306204d22f4e8ee7db619d97cb151587e3dd050f27605c1d4b22a4d8877b4305'},
     339000: {'ledger_hash': '8502d024910ef6a3b15fe558e94867d80bf9d84dda1e5e6cb4b8c4b22b48facd', 'txlist_hash': '942bd83baa1762904e78be18f0ef6a7c24481a6aed28ff50ca40dbaa789d6231'},
-    340000: {'ledger_hash': '188dea32a3df049a6b4f11c23ca2d48f560d0d465462d7f32d3f222828a823dc', 'txlist_hash': '4370a052f4c0c1e955ef80f671b188b9e1b72ea96858f24965721bb61426df34'},
-    341000: {'ledger_hash': '34d62b8637cee900c89f2f3b33f5b31c821feab6efe58f6b4f13f1bb7bdbbdfd', 'txlist_hash': '861c0b7fa16e153ca267336958689f1ba5a6100a90f885dd0264d2be36c08216'},
-    342000: {'ledger_hash': '47ad655b711d1490ed17854f3d79f676dcfa3f002a80ab72dce43112be1c259f', 'txlist_hash': '324ac513b083dc00f12c727e2942e09629628d1a24efd9dea26b1e50c4acf683'},
-    343000: {'ledger_hash': '8f7bd7aa4735dd60733e869c6384b623487a2723888550c4643cb8129fc7fa0e', 'txlist_hash': 'f3f960dd2212f23f360a6129e255c2c97ea8c2fb567cc27ada75f1f2696ae49f'},
-    344000: {'ledger_hash': '27e3f345c9967215c8e9ff5eaf74ed0d841ffe58404590133b1217c8b04c7e7d', 'txlist_hash': 'a18411004dd91f5dde9c4942472b8c70c89022bebfbf9320963cc48afe0166b0'},
-    345000: {'ledger_hash': '288ad821e781dcf0ffe7059bc9a1ebd0352e356541c600455f2d203b2aa92ceb', 'txlist_hash': '49e0856e4289c26b34fe3fdf8b2b9d17e8a7cd1c44980ac1f9fd987ffd391f87'},
-    346000: {'ledger_hash': 'a26e0896872b084297f7fad484326ca3f162398744cdea7dd965bad52688bb2f', 'txlist_hash': 'acb013bc775b45f89ad00d7f06328a23c39908acadbcc1d46497ac04c6e585b4'},
+    340000: {'ledger_hash': 'b5ea99ad882bd783284885fea6888be945ec8879ec57755d2e5737eff4b43877', 'txlist_hash': 'f951cf5a74676e0da578422e10f569fcafed0aa76a7d8df09e9c67ab5befbb8f'},
+    341000: {'ledger_hash': '84392b52170301c4070aaef21419a95a9ab32a8804850faedd662524db66ac93', 'txlist_hash': '9bca3e0ddce1005a3f8ffd5c938ebb2b3e9ce6446595e0ed2f96e71cfb10144b'},
+    342000: {'ledger_hash': '8dd6ed3c3540ab07a672652b102971bbe157d653c97853610c3ad29422841671', 'txlist_hash': '3afeb4768fd6d3b10b7576d2bb2c502ac4a8bb854d1660708dedb7b243d504c7'},
+    343000: {'ledger_hash': 'a1b11782a2c784dc4cf8bf8a43e1852524f8f5c541a2e509cd45b746b11a8ba5', 'txlist_hash': '635cf50adeff16b8d52125242aa60bc4da367b8b34f503199c2390a8f35e955e'},
+    344000: {'ledger_hash': 'aeaecdf7ed6ba8ac567bf0d9337950f7d57f651166ea884a7c183d03047ea537', 'txlist_hash': '54e000b610e5b4fa39fad95a91aa00208b031b024f02dd4b1822ba2d7d2eb02a'},
+    345000: {'ledger_hash': '0e6d06b77050a2094af208bf432aa271af21145e91491bdc72987cc45874a692', 'txlist_hash': '229929e82606fba0367ae9d3ed16c484acb278fe46ec8635b43f4972d745457a'},
+    346000: {'ledger_hash': 'c379bc134cf74ebe51fe202fceff88b09eb82161cb3e822343394fbff5eeb3b8', 'txlist_hash': '8c841665214c921c115a1ee96fa2c61710df430a47975f32b34b61e2bfbc9c41'},
 }
 
 CONSENSUS_HASH_VERSION_TESTNET = 6
@@ -74,7 +74,7 @@ def consensus_hash(db, field, previous_consensus_hash, content):
     # Check against checkpoints.
     checkpoints = CHECKPOINTS_TESTNET if config.TESTNET else CHECKPOINTS_MAINNET
     if block_index in checkpoints and checkpoints[block_index][field] != calculated_hash:
-        raise ConsensusError('Incorrect {} for block {}.'.format(field, block_index))
+        raise ConsensusError('Incorrect {} for block {}. got {} expected {}.'.format(field, block_index, calculated_hash, checkpoints[block_index][field]))
 
     return calculated_hash
 
