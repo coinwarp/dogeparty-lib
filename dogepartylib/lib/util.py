@@ -527,7 +527,7 @@ def supplies (db):
 
 def held (db): #TODO: Rename ?
     sql = '''SELECT asset, SUM(total) AS total FROM (
-                SELECT asset, SUM(quantity) AS total FROM balances GROUP BY asset 
+                SELECT asset, SUM(quantity) AS total FROM balances GROUP BY asset
                 UNION ALL
                 SELECT give_asset AS asset, SUM(give_remaining) AS total FROM orders WHERE status = 'open' GROUP BY asset
                 UNION ALL
@@ -602,7 +602,7 @@ def enabled(change_name, block_index=None):
     if not block_index:
         block_index = CURRENT_BLOCK_INDEX
 
-    if config.TESTNET: 
+    if config.TESTNET:
         return True     # Protocol changes are always retroactive on testnet.
     else:
         if block_index >= enable_block_index:
