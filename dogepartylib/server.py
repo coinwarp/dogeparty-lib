@@ -186,7 +186,7 @@ def initialise(database_file=None, log_file=None, api_log_file=None,
     if backend_user:
         config.BACKEND_USER = backend_user
     else:
-        config.BACKEND_USER = 'bitcoinrpc'
+        config.BACKEND_USER = 'dogecoinrpc'
 
     # Backend Core RPC password (Bitcoin Core)
     if backend_password:
