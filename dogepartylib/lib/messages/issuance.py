@@ -130,7 +130,7 @@ def validate (db, source, destination, asset, quantity, divisible, callable_, ca
             balances = cursor.fetchall()
             cursor.close()
             if util.enabled('numeric_asset_names'):  # Protocol change.
-                if len(asset) >= 13:
+                if len(asset) > config.NAMED_ASSET_MAXLEN:
                     fee = 0
                 else:
                     fee = int(0.5 * config.UNIT)

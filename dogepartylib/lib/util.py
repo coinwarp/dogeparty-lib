@@ -123,7 +123,7 @@ def generate_asset_id(asset_name, block_index):
                 raise exceptions.AssetNameError('numeric asset name not in range')
 
             return asset_id
-        elif len(asset_name) >= 13:
+        elif len(asset_name) >= config.NAMED_ASSET_MAXLEN:
             raise exceptions.AssetNameError('long asset names must be numeric')
 
     if asset_name[0] == 'A': raise exceptions.AssetNameError('non‐numeric asset name starts with ‘A’')
