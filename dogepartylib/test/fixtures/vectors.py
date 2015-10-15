@@ -1018,7 +1018,7 @@ UNITTEST_VECTOR = {
     'script': {
         'validate': [{
             'comment': 'valid bitcoin address',
-            'in': ('mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6',),
+            'in': ('nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3',),
             'out': None
         }, {
             'comment': 'invalid bitcoin address: bad checksum',
@@ -1026,7 +1026,7 @@ UNITTEST_VECTOR = {
             'error': (script.Base58ChecksumError, 'Checksum mismatch: 0x00285aa2 ≠ 0x00285aa1')
         }, {
             'comment': 'valid multi‐sig',
-            'in': ('1_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_2',),
+            'in': ('1_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_2',),
             'out': None
         }],
         'scriptpubkey_to_address': [{
@@ -1080,7 +1080,7 @@ UNITTEST_VECTOR = {
             'out': False
         }, {
             'comment': 'multi‐sig',
-            'in': ('1_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_2',),
+            'in': ('1_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_2',),
             'out': True
         }],
         'is_fully_valid': [{
@@ -1107,7 +1107,7 @@ UNITTEST_VECTOR = {
             'in': ('mn6q3dS2EnDUx3bmyWc6D4szJNVGtaR7zc',),
             'out': 'mn6q3dS2EnDUx3bmyWc6D4szJNVGtaR7zc'
         }, {
-            'in': ('1_02513522cbf07b0bd553b0d8f8414c476c9275334fd3edfa368386412e3a193558_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_2',),
+            'in': ('1_036694b25c2cca2b8243845c69d2bc9428aa238c5cf9087455ea299b5aef8b2e9e_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_2',),
             'error': (script.MultiSigAddressError, 'Multi‐signature address must use PubKeyHashes, not public keys.')
         }],
 
@@ -1156,7 +1156,7 @@ UNITTEST_VECTOR = {
         }],
         'is_pubkeyhash': [{
             'comment': 'valid bitcoin address',
-            'in': ('mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6',),
+            'in': ('nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3',),
             'out': True
         }, {
             'comment': 'invalid checksum',
@@ -1169,25 +1169,25 @@ UNITTEST_VECTOR = {
         }],
         'make_pubkeyhash': [{
             'comment': 'mono‐sig',
-            'in': ('02513522cbf07b0bd553b0d8f8414c476c9275334fd3edfa368386412e3a193558',),
-            'out': 'mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6'
+            'in': ('036694b25c2cca2b8243845c69d2bc9428aa238c5cf9087455ea299b5aef8b2e9e',),
+            'out': 'nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3'
         }, {
             'comment': 'multi‐sig, with pubkey in first position and pubkeyhash in second',
-            'in': ('1_02513522cbf07b0bd553b0d8f8414c476c9275334fd3edfa368386412e3a193558_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_2',),
-            'out': '1_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_2'
+            'in': ('1_036694b25c2cca2b8243845c69d2bc9428aa238c5cf9087455ea299b5aef8b2e9e_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_2',),
+            'out': '1_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_2'
         }],
         'extract_pubkeys': [{
             'comment': 'pubkeyhash',
-            'in': ('mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6',),
+            'in': ('nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3',),
             'out': []
         }, {
             'comment': 'mono‐sig',
-            'in': ('02513522cbf07b0bd553b0d8f8414c476c9275334fd3edfa368386412e3a193558',),
-            'out': ['02513522cbf07b0bd553b0d8f8414c476c9275334fd3edfa368386412e3a193558']
+            'in': ('036694b25c2cca2b8243845c69d2bc9428aa238c5cf9087455ea299b5aef8b2e9e',),
+            'out': ['036694b25c2cca2b8243845c69d2bc9428aa238c5cf9087455ea299b5aef8b2e9e']
         }, {
             'comment': 'multi‐sig, with pubkey in first position and pubkeyhash in second',
-            'in': ('1_02513522cbf07b0bd553b0d8f8414c476c9275334fd3edfa368386412e3a193558_mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP6_2',),
-            'out': ['02513522cbf07b0bd553b0d8f8414c476c9275334fd3edfa368386412e3a193558']
+            'in': ('1_036694b25c2cca2b8243845c69d2bc9428aa238c5cf9087455ea299b5aef8b2e9e_nZGU5v5qtbsohdkhxWZ5HLUmsp1hT84rW3_2',),
+            'out': ['036694b25c2cca2b8243845c69d2bc9428aa238c5cf9087455ea299b5aef8b2e9e']
         }]
     },
     'util': {
