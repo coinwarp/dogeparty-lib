@@ -326,7 +326,7 @@ def check_outputs(tx_name, method, inputs, outputs, error, records, server_db):
             tx_params = {
                 'encoding': 'multisig'
             }
-            if tx_name == 'order' and inputs[1]=='BTC':
+            if tx_name == 'order' and inputs[1]=='DOGE':
                 print('give btc')
                 tx_params['fee_provided'] = DP['fee_provided']
             unsigned_tx_hex = transaction.construct(server_db, test_outputs, **tx_params)
@@ -385,7 +385,7 @@ def reparse(testnet=True):
     memory_db = database.get_connection(read_only=False)
     initialise_db(memory_db)
 
-    data_dir = appdirs.user_data_dir(appauthor=config.XCP_NAME, appname=config.APP_NAME, roaming=True)
+    data_dir = appdirs.user_data_dir(appauthor=config.XDP_NAME, appname=config.APP_NAME, roaming=True)
     prod_db_path = os.path.join(data_dir, '{}{}.db'.format(config.APP_NAME, '.testnet' if testnet else ''))
     prod_db = apsw.Connection(prod_db_path)
     prod_db.setrowtrace(database.rowtracer)
