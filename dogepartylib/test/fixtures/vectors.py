@@ -99,18 +99,18 @@ UNITTEST_VECTOR = {
             'out': (ADDR[1], [(ADDR[0], None)], b'\x00\x00\x00(\x00\x00X\xb1\x14d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n')
         }],
         'parse': [{
-            'in': ({'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'block_time': 310501000, 'data': b'\x00\x00\x00(\x00\x00R\xbb3d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'block_index': 310501, 'supported': 1, 'btc_amount': 5430, 'tx_index': 502, 'tx_hash': 'a0ed83b170344b996bdd71799dd774ab10f5410f8572079a292f681d36ebc42c', 'fee': 10000, 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F'},),
+            'in': ({'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'block_time': 125179000, 'data': b'\x00\x00\x00(\x00\x00R\xbb3d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'block_index': 125179, 'supported': 1, 'btc_amount': 5430, 'tx_index': 502, 'tx_hash': 'a0ed83b170344b996bdd71799dd774ab10f5410f8572079a292f681d36ebc42c', 'fee': 10000, 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F'},),
             'out': None
         },  {
-            'in': ({'fee': 10000, 'tx_hash': '72a62abedd38d5f667150929c24dc1d7465dd81ab1502974814d20c1f65d871f', 'data': b'\x00\x00\x00(\x00\x00X\xb1\x14\x00\x00\x00\x00\x00\x05\xf5\xe1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x13\xb0\x00\x00\x00\n', 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'block_index': 310501, 'btc_amount': 5430, 'tx_index': 502, 'supported': 1, 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'block_time': 310501000, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58'},),
+            'in': ({'fee': 10000, 'tx_hash': '72a62abedd38d5f667150929c24dc1d7465dd81ab1502974814d20c1f65d871f', 'data': b'\x00\x00\x00(\x00\x00X\xb1\x14\x00\x00\x00\x00\x00\x05\xf5\xe1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x13\xb0\x00\x00\x00\n', 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'block_index': 125179, 'btc_amount': 5430, 'tx_index': 502, 'supported': 1, 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'block_time': 125179000, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58'},),
             'records': [
-                {'table': 'bets', 'values': {'expire_index': 310511, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'wager_quantity': 100000000, 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'leverage': 5040, 'fee_fraction_int': 5000000, 'deadline': 1488000000, 'counterwager_quantity': 0, 'bet_type': 0, 'wager_remaining': 100000000, 'status': 'invalid: non‐positive counterwager', 'expiration': 10, 'tx_index': 502, 'tx_hash': '72a62abedd38d5f667150929c24dc1d7465dd81ab1502974814d20c1f65d871f', 'block_index': 310501, 'target_value': 0.0, 'counterwager_remaining': 0}}
+                {'table': 'bets', 'values': {'expire_index': 125189, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'wager_quantity': 100000000, 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'leverage': 5040, 'fee_fraction_int': 5000000, 'deadline': 1488000000, 'counterwager_quantity': 0, 'bet_type': 0, 'wager_remaining': 100000000, 'status': 'invalid: non‐positive counterwager', 'expiration': 10, 'tx_index': 502, 'tx_hash': '72a62abedd38d5f667150929c24dc1d7465dd81ab1502974814d20c1f65d871f', 'block_index': 125179, 'target_value': 0.0, 'counterwager_remaining': 0}}
             ]
         },  {
-            'in': ({'supported': 1, 'data': b'\x00\x00\x00(\x00\x02R\xbb3\xc8\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x13\xb0\x00\x00\x03\xe8', 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'btc_amount': 5430, 'block_index': 310501, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'tx_hash': '30b9ca8488a931dffa1d8d3ac8f1c51360a29cedb7c703840becc8a95f81188c', 'block_time': 310501000, 'fee': 10000},),
+            'in': ({'supported': 1, 'data': b'\x00\x00\x00(\x00\x02R\xbb3\xc8\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x13\xb0\x00\x00\x03\xe8', 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'btc_amount': 5430, 'block_index': 125179, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'tx_hash': '30b9ca8488a931dffa1d8d3ac8f1c51360a29cedb7c703840becc8a95f81188c', 'block_time': 125179000, 'fee': 10000},),
             'records': [
-                {'table': 'bets', 'values': {'wager_quantity': 10, 'counterwager_quantity': 10, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'target_value': 0.0, 'expiration': 1000, 'leverage': 5040, 'tx_hash': '30b9ca8488a931dffa1d8d3ac8f1c51360a29cedb7c703840becc8a95f81188c', 'counterwager_remaining': 0, 'wager_remaining': 0, 'expire_index': 311501, 'bet_type': 2, 'fee_fraction_int': 5000000, 'block_index': 310501, 'tx_index': 502, 'deadline': 1388000200, 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'filled'}},
-                {'table': 'bets', 'values': {'wager_quantity': 10, 'counterwager_quantity': 10, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'target_value': 0.0, 'expiration': 1000, 'leverage': 5040, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'counterwager_remaining': 0, 'wager_remaining': 0, 'expire_index': 311101, 'bet_type': 3, 'fee_fraction_int': 5000000, 'block_index': 310101, 'tx_index': 102, 'deadline': 1388000200, 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'filled'}}
+                {'table': 'bets', 'values': {'wager_quantity': 10, 'counterwager_quantity': 10, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'target_value': 0.0, 'expiration': 1000, 'leverage': 5040, 'tx_hash': '30b9ca8488a931dffa1d8d3ac8f1c51360a29cedb7c703840becc8a95f81188c', 'counterwager_remaining': 0, 'wager_remaining': 0, 'expire_index': 311501, 'bet_type': 2, 'fee_fraction_int': 5000000, 'block_index': 125179, 'tx_index': 502, 'deadline': 1388000200, 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'filled'}},
+                {'table': 'bets', 'values': {'wager_quantity': 10, 'counterwager_quantity': 10, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'target_value': 0.0, 'expiration': 1000, 'leverage': 5040, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'counterwager_remaining': 0, 'wager_remaining': 0, 'expire_index': 311101, 'bet_type': 3, 'fee_fraction_int': 5000000, 'block_index': 124779, 'tx_index': 102, 'deadline': 1388000200, 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'filled'}}
             ]
         }],
         'get_fee_fraction': [{
@@ -128,11 +128,11 @@ UNITTEST_VECTOR = {
             'in': ({'tx_index': 99999999},),
             'out': None
         },  {
-            'in': ({'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'block_time': 310501000, 'data': b'\x00\x00\x00(\x00\x00R\xbb3d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'block_index': 310501, 'supported': 1, 'btc_amount': 5430, 'tx_index': 502, 'tx_hash': 'a0ed83b170344b996bdd71799dd774ab10f5410f8572079a292f681d36ebc42c', 'fee': 10000, 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F'},),
+            'in': ({'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'block_time': 125179000, 'data': b'\x00\x00\x00(\x00\x00R\xbb3d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'block_index': 125179, 'supported': 1, 'btc_amount': 5430, 'tx_index': 502, 'tx_hash': 'a0ed83b170344b996bdd71799dd774ab10f5410f8572079a292f681d36ebc42c', 'fee': 10000, 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F'},),
             'out': None
         }],
-        # Testing expiration of normal bets is impossible - either the bet is expired automatically with expiry < 310500 or
-        # with expire > 310500 insert fails with FOREIGN KEY error on block_index (which doesn't exist). With expiry 310500 nothing happens.
+        # Testing expiration of normal bets is impossible - either the bet is expired automatically with expiry < 125178 or
+        # with expire > 125178 insert fails with FOREIGN KEY error on block_index (which doesn't exist). With expiry 125178 nothing happens.
         # Testing bet_match expirations is impossible too, since if you add a bet_match with 'pending' status to the fixtures, it raises a ConsensusError in blocks.parse_block.
         # 'expire': [{
         #     'in': (DP['default_block'] - 1, 5388000200,),
@@ -141,15 +141,15 @@ UNITTEST_VECTOR = {
         #     ]
         # }],
         'cancel_bet': [{
-            'in': ({'counterwager_quantity': 10, 'wager_remaining': 10, 'target_value': 0.0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'counterwager_remaining': 10, 'tx_index': 102, 'block_index': 310101, 'deadline': 1388000200, 'bet_type': 3, 'expiration': 1000, 'expire_index': 311101, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'leverage': 5040, 'wager_quantity': 10, 'fee_fraction_int': 5000000, 'status': 'open'}, 'filled', DP['default_block']),
+            'in': ({'counterwager_quantity': 10, 'wager_remaining': 10, 'target_value': 0.0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'counterwager_remaining': 10, 'tx_index': 102, 'block_index': 124779, 'deadline': 1388000200, 'bet_type': 3, 'expiration': 1000, 'expire_index': 311101, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'leverage': 5040, 'wager_quantity': 10, 'fee_fraction_int': 5000000, 'status': 'open'}, 'filled', DP['default_block']),
             'records': [
-                {'table': 'bets', 'values': {'counterwager_quantity': 10, 'wager_remaining': 10, 'target_value': 0.0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'counterwager_remaining': 10, 'tx_index': 102, 'block_index': 310101, 'deadline': 1388000200, 'bet_type': 3, 'expiration': 1000, 'expire_index': 311101, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'leverage': 5040, 'wager_quantity': 10, 'fee_fraction_int': 5000000, 'status': 'filled'}}
+                {'table': 'bets', 'values': {'counterwager_quantity': 10, 'wager_remaining': 10, 'target_value': 0.0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'counterwager_remaining': 10, 'tx_index': 102, 'block_index': 124779, 'deadline': 1388000200, 'bet_type': 3, 'expiration': 1000, 'expire_index': 311101, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'leverage': 5040, 'wager_quantity': 10, 'fee_fraction_int': 5000000, 'status': 'filled'}}
             ]
         }],
         'cancel_bet_match': [{
-            'in': ({'tx0_block_index': 310019, 'backward_quantity': 9, 'initial_value': 1, 'tx1_expiration': 100, 'id': 'be15d34c959fde8f2baff8577d73d28c864e7684cc76ecba33e5d6d79ca6d6bd_90c1314847b1fe9b4520a3610dc98c71d39a1cb4b96edb9b02b6fed844a4b1e5', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'settled', 'leverage': 5040, 'target_value': 0.0, 'fee_fraction_int': 5000000, 'tx0_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'deadline': 1388000001, 'tx1_bet_type': 0, 'tx1_address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx0_index': 20, 'tx1_hash': '90c1314847b1fe9b4520a3610dc98c71d39a1cb4b96edb9b02b6fed844a4b1e5', 'tx0_hash': 'be15d34c959fde8f2baff8577d73d28c864e7684cc76ecba33e5d6d79ca6d6bd', 'block_index': 310020, 'forward_quantity': 9, 'match_expire_index': 310119, 'tx1_block_index': 310020, 'tx0_expiration': 100, 'tx1_index': 21, 'tx0_bet_type': 1}, 'filled', DP['default_block']),
+            'in': ({'tx0_block_index': 124697, 'backward_quantity': 9, 'initial_value': 1, 'tx1_expiration': 100, 'id': 'be15d34c959fde8f2baff8577d73d28c864e7684cc76ecba33e5d6d79ca6d6bd_90c1314847b1fe9b4520a3610dc98c71d39a1cb4b96edb9b02b6fed844a4b1e5', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'settled', 'leverage': 5040, 'target_value': 0.0, 'fee_fraction_int': 5000000, 'tx0_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'deadline': 1388000001, 'tx1_bet_type': 0, 'tx1_address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx0_index': 20, 'tx1_hash': '90c1314847b1fe9b4520a3610dc98c71d39a1cb4b96edb9b02b6fed844a4b1e5', 'tx0_hash': 'be15d34c959fde8f2baff8577d73d28c864e7684cc76ecba33e5d6d79ca6d6bd', 'block_index': 124698, 'forward_quantity': 9, 'match_expire_index': 124797, 'tx1_block_index': 124698, 'tx0_expiration': 100, 'tx1_index': 21, 'tx0_bet_type': 1}, 'filled', DP['default_block']),
             'records': [
-                {'table': 'bet_matches', 'values': {'tx0_block_index': 310019, 'backward_quantity': 9, 'initial_value': 1, 'tx1_expiration': 100, 'id': 'be15d34c959fde8f2baff8577d73d28c864e7684cc76ecba33e5d6d79ca6d6bd_90c1314847b1fe9b4520a3610dc98c71d39a1cb4b96edb9b02b6fed844a4b1e5', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'filled', 'leverage': 5040, 'target_value': 0.0, 'fee_fraction_int': 5000000, 'tx0_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'deadline': 1388000001, 'tx1_bet_type': 0, 'tx1_address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx0_index': 20, 'tx1_hash': '90c1314847b1fe9b4520a3610dc98c71d39a1cb4b96edb9b02b6fed844a4b1e5', 'tx0_hash': 'be15d34c959fde8f2baff8577d73d28c864e7684cc76ecba33e5d6d79ca6d6bd', 'block_index': 310020, 'forward_quantity': 9, 'match_expire_index': 310119, 'tx1_block_index': 310020, 'tx0_expiration': 100, 'tx1_index': 21, 'tx0_bet_type': 1}}
+                {'table': 'bet_matches', 'values': {'tx0_block_index': 124697, 'backward_quantity': 9, 'initial_value': 1, 'tx1_expiration': 100, 'id': 'be15d34c959fde8f2baff8577d73d28c864e7684cc76ecba33e5d6d79ca6d6bd_90c1314847b1fe9b4520a3610dc98c71d39a1cb4b96edb9b02b6fed844a4b1e5', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'filled', 'leverage': 5040, 'target_value': 0.0, 'fee_fraction_int': 5000000, 'tx0_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'deadline': 1388000001, 'tx1_bet_type': 0, 'tx1_address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx0_index': 20, 'tx1_hash': '90c1314847b1fe9b4520a3610dc98c71d39a1cb4b96edb9b02b6fed844a4b1e5', 'tx0_hash': 'be15d34c959fde8f2baff8577d73d28c864e7684cc76ecba33e5d6d79ca6d6bd', 'block_index': 124698, 'forward_quantity': 9, 'match_expire_index': 124797, 'tx1_block_index': 124698, 'tx0_expiration': 100, 'tx1_index': 21, 'tx0_bet_type': 1}}
             ]
         }],
     },
@@ -171,19 +171,19 @@ UNITTEST_VECTOR = {
         }],
         'last_db_index': [{
             'in': (),
-            'out': 310500
+            'out': 125178
         }],
         'get_tx_info': [{
             'in': (b'0100000001ebe3111881a8733ace02271dcf606b7450c41a48c1cb21fd73f4ba787b353ce4000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88acffffffff0336150000000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac781e000000000000695121035ca51ea175f108a1c63588683dc4c43a7146c46799f864a300263c0813f5fe352102309a14a1a30202f2e76f46acdb2917752371ca42b97460f7928ade8ecb02ea1721034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b53ae4286f505000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac00000000',),
-            'out': ('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 5430, 10000, b'\x00\x00\x00(\x00\x00R\xbb3d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n')
+            'out': ('nh5ucUB25sA643JY2BrDgmHCUmcoNFQY6B', 'nan31r2bf99Eausx2MGjBKRZZP1AK4jYVj', 5430, 10000, b'\x00\x00\x00(\x00\x00R\xbb3d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n')
         }],
         'get_tx_info1': [{
             'in': (b'0100000001ebe3111881a8733ace02271dcf606b7450c41a48c1cb21fd73f4ba787b353ce4000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88acffffffff0636150000000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac36150000000000001976a9147da51ea175f108a1c63588683dc4c43a7146c46788ac36150000000000001976a9147da51ea175f108a1c6358868173e34e8ca75a06788ac36150000000000001976a9147da51ea175f108a1c637729895c4c468ca75a06788ac36150000000000001976a9147fa51ea175f108a1c63588682ed4c468ca7fa06788ace24ff505000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac00000000', DP['default_block']),
-            'out': ('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 5430, 10000,  b'\x00\x00\x00(\x00\x00R\xbb3d\x00TESTXXXX\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00TESTXXXX\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00TESTXXXX\x00\x00\x00;\x10\x00\x00\x00\n\x9b\xb3Q\x92(6\xc8\x86\x81i\x87\xe1\x0b\x03\xb8_8v\x8b')
+            'out': ('nh5ucUB25sA643JY2BrDgmHCUmcoNFQY6B', 'nan31r2bf99Eausx2MGjBKRZZP1AK4jYVj', 5430, 10000,  b'\x00\x00\x00(\x00\x00R\xbb3d\x00TESTXXXX\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00TESTXXXX\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00TESTXXXX\x00\x00\x00;\x10\x00\x00\x00\n\x9b\xb3Q\x92(6\xc8\x86\x81i\x87\xe1\x0b\x03\xb8_8v\x8b')
         }],
         'get_tx_info2': [{
             'in': (b'0100000001ebe3111881a8733ace02271dcf606b7450c41a48c1cb21fd73f4ba787b353ce4000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88acffffffff0336150000000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac781e000000000000695121035ca51ea175f108a1c63588683dc4c43a7146c46799f864a300263c0813f5fe352102309a14a1a30202f2e76f46acdb2917752371ca42b97460f7928ade8ecb02ea1721034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b53ae4286f505000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac00000000',),
-            'out': ('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 5430, 10000, b'\x00\x00\x00(\x00\x00R\xbb3d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n')
+            'out': ('nh5ucUB25sA643JY2BrDgmHCUmcoNFQY6B', 'nan31r2bf99Eausx2MGjBKRZZP1AK4jYVj', 5430, 10000, b'\x00\x00\x00(\x00\x00R\xbb3d\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00;\x10\x00\x00\x00\n')
         }],
     },
     'cancel': {
@@ -201,13 +201,13 @@ UNITTEST_VECTOR = {
             'error': (exceptions.ComposeError, "['offer not open']")
         }],
         'parse': [{
-            'in': ({'block_index': 310501, 'btc_amount': 0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'data': b'\x00\x00\x00F\xba\x0e\xf1\xdf\xbb\xc8}\xf9N\x1d\x19\x8b\x0e\x9e<\x060\x17\x10\xd4\xaa\xb3\xd8Q\x16\xcb\xc8\x19\x99TdJ', 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'fee': 10000, 'block_time': 310501000, 'tx_hash': 'fb645106e276bfa1abd587f4a251b26f491a2a9ae61ca46a669794109728b122', 'destination': '', 'supported': 1},),
+            'in': ({'block_index': 125179, 'btc_amount': 0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'data': b'\x00\x00\x00F\xba\x0e\xf1\xdf\xbb\xc8}\xf9N\x1d\x19\x8b\x0e\x9e<\x060\x17\x10\xd4\xaa\xb3\xd8Q\x16\xcb\xc8\x19\x99TdJ', 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'fee': 10000, 'block_time': 125179000, 'tx_hash': 'fb645106e276bfa1abd587f4a251b26f491a2a9ae61ca46a669794109728b122', 'destination': '', 'supported': 1},),
             'out': None
         },  {
-            'in': ({'block_index': 310501, 'btc_amount': 0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'data': b'\x00\x00\x00F\xba\x0e\xf1\xdf\xbb\xc8}\xf9N\x1d\x19\x8b\x0e\x9e<\x060\x17\x10\xd4\xaa\xb3\xd8Q\x16\xcb\xc8\x19\x99TdJ', 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'fee': 10000, 'block_time': 310501000, 'tx_hash': 'fb645106e276bfa1abd587f4a251b26f491a2a9ae61ca46a669794109728b122', 'destination': '', 'supported': 1},),
+            'in': ({'block_index': 125179, 'btc_amount': 0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'data': b'\x00\x00\x00F\xba\x0e\xf1\xdf\xbb\xc8}\xf9N\x1d\x19\x8b\x0e\x9e<\x060\x17\x10\xd4\xaa\xb3\xd8Q\x16\xcb\xc8\x19\x99TdJ', 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'fee': 10000, 'block_time': 125179000, 'tx_hash': 'fb645106e276bfa1abd587f4a251b26f491a2a9ae61ca46a669794109728b122', 'destination': '', 'supported': 1},),
             'records': [
-                {'table': 'cancels', 'values': {'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'block_index': 310501, 'offer_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'tx_index': 502, 'tx_hash': 'fb645106e276bfa1abd587f4a251b26f491a2a9ae61ca46a669794109728b122', 'status': 'valid'}},
-                {'table': 'bets', 'values': {'counterwager_quantity': 10, 'wager_remaining': 10, 'target_value': 0.0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'counterwager_remaining': 10, 'tx_index': 102, 'block_index': 310101, 'deadline': 1388000200, 'bet_type': 3, 'expiration': 1000, 'expire_index': 311101, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'leverage': 5040, 'wager_quantity': 10, 'fee_fraction_int': 5000000, 'status': 'cancelled'}}
+                {'table': 'cancels', 'values': {'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'block_index': 125179, 'offer_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'tx_index': 502, 'tx_hash': 'fb645106e276bfa1abd587f4a251b26f491a2a9ae61ca46a669794109728b122', 'status': 'valid'}},
+                {'table': 'bets', 'values': {'counterwager_quantity': 10, 'wager_remaining': 10, 'target_value': 0.0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'counterwager_remaining': 10, 'tx_index': 102, 'block_index': 124779, 'deadline': 1388000200, 'bet_type': 3, 'expiration': 1000, 'expire_index': 311101, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'leverage': 5040, 'wager_quantity': 10, 'fee_fraction_int': 5000000, 'status': 'cancelled'}}
            ]
         }],
     },
@@ -236,23 +236,23 @@ UNITTEST_VECTOR = {
             'out': (ADDR[0], [], b'\x00\x00\x00\x1e^\xa6\xf5\x00?\xf0\x00\x00\x00\x00\x00\x00\x00LK@Over 52 characters test test test test test test test test')
         }],
         'parse': [{
-            'in': ({'destination': '', 'block_index': 310501, 'supported': 1, 'data': b'\x00\x00\x00\x1eR\xbb3dA\x87\xd7\x84\x00\x00\x00\x00\x00\x00\x00\x00\x06BARFOO', 'fee': 10000, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'btc_amount': 0, 'block_time': 310501000, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_hash': 'dd48da950fd7d000224b79ebe3495fa594ca6d6698f16c4e2dc93b4f116006ea'},),
+            'in': ({'destination': '', 'block_index': 125179, 'supported': 1, 'data': b'\x00\x00\x00\x1eR\xbb3dA\x87\xd7\x84\x00\x00\x00\x00\x00\x00\x00\x00\x06BARFOO', 'fee': 10000, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'btc_amount': 0, 'block_time': 125179000, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_hash': 'dd48da950fd7d000224b79ebe3495fa594ca6d6698f16c4e2dc93b4f116006ea'},),
             'out': None
         },  {
-            'in': ({'destination': '', 'block_index': 310501, 'supported': 1, 'data': b'\x00\x00\x00\x1eR\xbb3dA\x87\xd7\x84\x00\x00\x00\x00\x00\x00\x00\x00\x06BARFOO', 'fee': 10000, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'btc_amount': 0, 'block_time': 310501000, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_hash': 'dd48da950fd7d000224b79ebe3495fa594ca6d6698f16c4e2dc93b4f116006ea'},),
+            'in': ({'destination': '', 'block_index': 125179, 'supported': 1, 'data': b'\x00\x00\x00\x1eR\xbb3dA\x87\xd7\x84\x00\x00\x00\x00\x00\x00\x00\x00\x06BARFOO', 'fee': 10000, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'btc_amount': 0, 'block_time': 125179000, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_hash': 'dd48da950fd7d000224b79ebe3495fa594ca6d6698f16c4e2dc93b4f116006ea'},),
             'records': [
-                {'table': 'broadcasts', 'values': {'text': 'BARFOO', 'block_index': 310501, 'fee_fraction_int': 0, 'status': 'valid', 'locked': 0, 'timestamp': 1388000100, 'tx_index': 502, 'value': 50000000.0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_hash': 'dd48da950fd7d000224b79ebe3495fa594ca6d6698f16c4e2dc93b4f116006ea'}},
+                {'table': 'broadcasts', 'values': {'text': 'BARFOO', 'block_index': 125179, 'fee_fraction_int': 0, 'status': 'valid', 'locked': 0, 'timestamp': 1388000100, 'tx_index': 502, 'value': 50000000.0, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_hash': 'dd48da950fd7d000224b79ebe3495fa594ca6d6698f16c4e2dc93b4f116006ea'}},
             ]
         },  {
-            'in': ({'fee': 10000, 'btc_amount': 0, 'supported': 1, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'block_time': 310501000, 'destination': '', 'block_index': 310501, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'tx_hash': 'c9e8db96d520b0611218504801e74796ae4f476578512d21d3f99367ab8e356f', 'data': b'\x00\x00\x00\x1eR\xbb4,\xc0\x00\x00\x00\x00\x00\x00\x00\x00LK@\tUnit Test'},),
+            'in': ({'fee': 10000, 'btc_amount': 0, 'supported': 1, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_index': 502, 'block_time': 125179000, 'destination': '', 'block_index': 125179, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'tx_hash': 'c9e8db96d520b0611218504801e74796ae4f476578512d21d3f99367ab8e356f', 'data': b'\x00\x00\x00\x1eR\xbb4,\xc0\x00\x00\x00\x00\x00\x00\x00\x00LK@\tUnit Test'},),
             'records': [
-                {'table': 'broadcasts', 'values':  {'text': 'Unit Test', 'value': -2.0, 'tx_index': 502, 'timestamp': 1388000300, 'fee_fraction_int': 5000000, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'locked': 0, 'block_index': 310501, 'status': 'valid', 'tx_hash': 'c9e8db96d520b0611218504801e74796ae4f476578512d21d3f99367ab8e356f'}},
-                {'table': 'bets', 'values': {'target_value': 0.0, 'tx_index': 102, 'status': 'dropped', 'fee_fraction_int': 5000000, 'expiration': 1000, 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'expire_index': 311101, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'deadline': 1388000200, 'counterwager_quantity': 10, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'bet_type': 3, 'block_index': 310101, 'leverage': 5040, 'wager_quantity': 10, 'counterwager_remaining': 10, 'wager_remaining': 10}}
+                {'table': 'broadcasts', 'values':  {'text': 'Unit Test', 'value': -2.0, 'tx_index': 502, 'timestamp': 1388000300, 'fee_fraction_int': 5000000, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'locked': 0, 'block_index': 125179, 'status': 'valid', 'tx_hash': 'c9e8db96d520b0611218504801e74796ae4f476578512d21d3f99367ab8e356f'}},
+                {'table': 'bets', 'values': {'target_value': 0.0, 'tx_index': 102, 'status': 'dropped', 'fee_fraction_int': 5000000, 'expiration': 1000, 'feed_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'expire_index': 311101, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'deadline': 1388000200, 'counterwager_quantity': 10, 'tx_hash': 'ba0ef1dfbbc87df94e1d198b0e9e3c06301710d4aab3d85116cbc8199954644a', 'bet_type': 3, 'block_index': 124779, 'leverage': 5040, 'wager_quantity': 10, 'counterwager_remaining': 10, 'wager_remaining': 10}}
             ]
         },  {
-            'in': ({'btc_amount': 0, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'destination': '', 'block_index': 310501, 'fee': 10000, 'supported': 1, 'block_time': 310501000, 'tx_hash': '6b4a62b80f35b0e66df4591c8a445d453d995609e2df12afe93e742bea10dd86', 'tx_index': 502, 'data': b'\x00\x00\x00\x1eR\xbb3dA\x87\xd7\x84\x00\x00\x00\x00\x00\x00\x00\x00\x04LOCK'},),
+            'in': ({'btc_amount': 0, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'destination': '', 'block_index': 125179, 'fee': 10000, 'supported': 1, 'block_time': 125179000, 'tx_hash': '6b4a62b80f35b0e66df4591c8a445d453d995609e2df12afe93e742bea10dd86', 'tx_index': 502, 'data': b'\x00\x00\x00\x1eR\xbb3dA\x87\xd7\x84\x00\x00\x00\x00\x00\x00\x00\x00\x04LOCK'},),
             'records': [
-                {'table': 'broadcasts', 'values': {'status': 'valid', 'fee_fraction_int': None, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'block_index': 310501, 'timestamp': 0, 'text': None, 'locked': 1, 'value': None, 'tx_hash': '6b4a62b80f35b0e66df4591c8a445d453d995609e2df12afe93e742bea10dd86', 'tx_index': 502}}
+                {'table': 'broadcasts', 'values': {'status': 'valid', 'fee_fraction_int': None, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'block_index': 125179, 'timestamp': 0, 'text': None, 'locked': 1, 'value': None, 'tx_hash': '6b4a62b80f35b0e66df4591c8a445d453d995609e2df12afe93e742bea10dd86', 'tx_index': 502}}
         ]
         }],
     },
@@ -421,12 +421,12 @@ UNITTEST_VECTOR = {
         }, {
             'in': ({'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'block_hash': '2d62095b10a709084b1854b262de77cb9f4f7cd76ba569657df8803990ffbfc6c12bca3c18a44edae9498e1f0f054072e16eef32dfa5e3dd4be149009115b4b8', 'btc_amount': 7800, 'block_index': DP['default_block'], 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'data': b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x0b\xeb\xc2\x00', 'block_time': 155409000, 'fee': 10000, 'source': 'nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH', 'tx_index': 502, 'supported': 1},),
             'records': [
-                {'table': 'sends', 'values': {'status': 'valid', 'quantity': 0, 'asset': 'XDP', 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'block_index': 310501, 'tx_index': 502, 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'source': 'nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH'}}
+                {'table': 'sends', 'values': {'status': 'valid', 'quantity': 0, 'asset': 'XDP', 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'block_index': 125179, 'tx_index': 502, 'destination': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'source': 'nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH'}}
             ]
         }, {
-            'in':({'tx_index': 502, 'data': b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00X\xb1\x14\x00', 'source': 'nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH', 'block_time': 310501000, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_hash': '736ecc18f9f41b3ccf67dded1252969e4929404d6ad657b2039b937a7785cf3e', 'supported': 1, 'destination': 'nW8dXfYakP7aSyPuzEcAdFyrjFXimPkvct', 'btc_amount': 5430, 'block_index': 310501, 'fee': 10000},),
+            'in':({'tx_index': 502, 'data': b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00X\xb1\x14\x00', 'source': 'nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH', 'block_time': 125179000, 'block_hash': '46ac6d09237c7961199068fdd13f1508d755483e07c57a4c8f7ff18eb33a05c93ca6a86fa2e2af82fb77a5c337146bb37e279797a3d11970aec4693c46ea5a58', 'tx_hash': '736ecc18f9f41b3ccf67dded1252969e4929404d6ad657b2039b937a7785cf3e', 'supported': 1, 'destination': 'nW8dXfYakP7aSyPuzEcAdFyrjFXimPkvct', 'btc_amount': 5430, 'block_index': 125179, 'fee': 10000},),
             'records': [
-                {'table': 'sends', 'values': {'asset': 'XDP', 'status': 'valid', 'source': 'nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH', 'destination': 'nW8dXfYakP7aSyPuzEcAdFyrjFXimPkvct', 'tx_index': 502, 'tx_hash': '736ecc18f9f41b3ccf67dded1252969e4929404d6ad657b2039b937a7785cf3e', 'block_index': 310501, 'quantity': 0}}
+                {'table': 'sends', 'values': {'asset': 'XDP', 'status': 'valid', 'source': 'nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH', 'destination': 'nW8dXfYakP7aSyPuzEcAdFyrjFXimPkvct', 'tx_index': 502, 'tx_hash': '736ecc18f9f41b3ccf67dded1252969e4929404d6ad657b2039b937a7785cf3e', 'block_index': 125179, 'quantity': 0}}
             ]
         }, {
             'in': ({'block_index': DP['default_block'], 'btc_amount': 7800, 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'block_time': 155409000, 'fee': 10000, 'tx_index': 502, 'data': b'\x00\x00\x00\x00\x00\x06\xca\xd8\xdc\x7f\x0bf\x00\x00\x00\x00\x00\x00\x01\xf4', 'block_hash': '2d62095b10a709084b1854b262de77cb9f4f7cd76ba569657df8803990ffbfc6c12bca3c18a44edae9498e1f0f054072e16eef32dfa5e3dd4be149009115b4b8', 'destination': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'supported': 1},),
@@ -486,7 +486,7 @@ UNITTEST_VECTOR = {
             'out': (0, 0.0, ['quantity must be in satoshis'], 0, '', True, None)
         }, {
             'in': (ADDR[0], None, 'CALLPRICEFLOAT', 1000, True, False, None, 100.0, '', DP['default_block']),
-            'out': (0, 0.0, [], 0, '', True, False)
+            'out': (0, 0.0, [], 50000000, '', True, False)
         }, {
             'in': (ADDR[0], None, 'CALLPRICEINT', 1000, True, False, None, 100, '', DP['default_block']),
             'out': (0, 0.0, [], 50000000, '', True, False)
@@ -746,15 +746,15 @@ UNITTEST_VECTOR = {
         }, {
             'in': ({'fee': 10000, 'block_time': 155409000, 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'destination': None, 'supported': 1, 'tx_index': 502, 'data': b'\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\n,+\x07\xd0\x00\x00\x00\x00\x00\x00\x00\x00', 'block_hash': '2d62095b10a709084b1854b262de77cb9f4f7cd76ba569657df8803990ffbfc6c12bca3c18a44edae9498e1f0f054072e16eef32dfa5e3dd4be149009115b4b8', 'btc_amount': None, 'block_index': DP['default_block']},),
             'records': [
-                {'table': 'orders', 'values': {'give_remaining': 140, 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'fee_required': 0, 'tx_index': 502, 'expire_index': 312501, 'status': 'open', 'fee_required_remaining': 0, 'fee_provided': 10000, 'get_remaining': 0, 'get_asset': 'DOGE', 'give_quantity': 99999990, 'block_index': 310501, 'give_asset': 'XDP', 'fee_provided_remaining': 10000, 'expiration': 2000, 'get_quantity': 666666}},
-                {'table': 'order_matches', 'values': {'tx1_address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx0_index': 12, 'tx0_expiration': 2000, 'block_index': 310501, 'backward_asset': 'XDP', 'tx1_index': 502, 'fee_paid': 0, 'forward_asset': 'DOGE', 'tx1_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'tx1_block_index': 310501, 'id': '8a63e7a516d36c17ac32999222ac282ab94fb9c5ea30637cd06660b3139510f6_db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'backward_quantity': 99999850, 'forward_quantity': 666666, 'tx0_hash': '8a63e7a516d36c17ac32999222ac282ab94fb9c5ea30637cd06660b3139510f6', 'tx1_expiration': 2000, 'tx0_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'pending', 'match_expire_index': 310521, 'tx0_block_index': 310011}},
-                {'table': 'debits', 'values': {'action': 'open order', 'quantity': 99999990, 'event': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'block_index': 310501, 'asset': 'XDP', 'address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65'}}
+                {'table': 'orders', 'values': {'give_remaining': 140, 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'fee_required': 0, 'tx_index': 502, 'expire_index': 312501, 'status': 'open', 'fee_required_remaining': 0, 'fee_provided': 10000, 'get_remaining': 0, 'get_asset': 'DOGE', 'give_quantity': 99999990, 'block_index': 125179, 'give_asset': 'XDP', 'fee_provided_remaining': 10000, 'expiration': 2000, 'get_quantity': 666666}},
+                {'table': 'order_matches', 'values': {'tx1_address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx0_index': 12, 'tx0_expiration': 2000, 'block_index': 125179, 'backward_asset': 'XDP', 'tx1_index': 502, 'fee_paid': 0, 'forward_asset': 'DOGE', 'tx1_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'tx1_block_index': 125179, 'id': '8a63e7a516d36c17ac32999222ac282ab94fb9c5ea30637cd06660b3139510f6_db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'backward_quantity': 99999850, 'forward_quantity': 666666, 'tx0_hash': '8a63e7a516d36c17ac32999222ac282ab94fb9c5ea30637cd06660b3139510f6', 'tx1_expiration': 2000, 'tx0_address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'status': 'pending', 'match_expire_index': 125199, 'tx0_block_index': 124689}},
+                {'table': 'debits', 'values': {'action': 'open order', 'quantity': 99999990, 'event': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'block_index': 125179, 'asset': 'XDP', 'address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65'}}
             ]
         }, {
             'in': ({'block_time': 155409000, 'destination': None, 'btc_amount': None, 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'data': b'\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1e\x84\x80\x07\xd0\x00\x00\x00\x00\x00\x00\x00\x00', 'supported': 1, 'fee': 10000, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_index': 502, 'block_index': DP['default_block'], 'block_hash': '2d62095b10a709084b1854b262de77cb9f4f7cd76ba569657df8803990ffbfc6c12bca3c18a44edae9498e1f0f054072e16eef32dfa5e3dd4be149009115b4b8'},),
             'records': [
-                {'table': 'orders', 'values': {'give_quantity': 99999990, 'get_asset': 'DOGE', 'give_asset': 'XDP', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'expire_index': 312501, 'expiration': 2000, 'tx_index': 502, 'fee_required_remaining': 0, 'give_remaining': 99999990, 'get_remaining': 1999999, 'fee_provided': 10000, 'fee_provided_remaining': 10000, 'status': 'open', 'fee_required': 0, 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'block_index': 310501, 'get_quantity': 1999999}},
-                {'table': 'debits', 'values': {'event': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'action': 'open order', 'asset': 'XDP', 'block_index': 310501, 'quantity': 99999990, 'address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65'}}
+                {'table': 'orders', 'values': {'give_quantity': 99999990, 'get_asset': 'DOGE', 'give_asset': 'XDP', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'expire_index': 312501, 'expiration': 2000, 'tx_index': 502, 'fee_required_remaining': 0, 'give_remaining': 99999990, 'get_remaining': 1999999, 'fee_provided': 10000, 'fee_provided_remaining': 10000, 'status': 'open', 'fee_required': 0, 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'block_index': 125179, 'get_quantity': 1999999}},
+                {'table': 'debits', 'values': {'event': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'action': 'open order', 'asset': 'XDP', 'block_index': 125179, 'quantity': 99999990, 'address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65'}}
            ]
         }, {
             'in': ({'data': b'\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\xa1 \x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00\x07\xd0\x00\x00\x00\x00\x00\x00\x00\x00', 'tx_index': 502, 'destination': None, 'block_index': DP['default_block'], 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'btc_amount': None, 'block_time': 155409000, 'supported': 1, 'fee': 1000000, 'block_hash': '2d62095b10a709084b1854b262de77cb9f4f7cd76ba569657df8803990ffbfc6c12bca3c18a44edae9498e1f0f054072e16eef32dfa5e3dd4be149009115b4b8', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65'},),
@@ -764,7 +764,7 @@ UNITTEST_VECTOR = {
         }, {
             'in': ({'block_hash': '2d62095b10a709084b1854b262de77cb9f4f7cd76ba569657df8803990ffbfc6c12bca3c18a44edae9498e1f0f054072e16eef32dfa5e3dd4be149009115b4b8', 'btc_amount': None, 'tx_index': 502, 'supported': 1, 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'fee': 10000, 'block_time': 155409000, 'block_index': DP['default_block'], 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'data': b'\x00\x00\x00\n\x00\x00\x00\x00\x00 foo\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe1\x00\x07\xd0\x00\x00\x00\x00\x00\x00\x00\x00', 'destination': None},),
             'records': [
-                {'table': 'orders', 'values': {'get_asset': '0', 'tx_index': 502, 'fee_required': 0, 'status': 'invalid: could not unpack', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'fee_required_remaining': 0, 'give_remaining': 0, 'fee_provided_remaining': 10000, 'fee_provided': 10000, 'expire_index': 310501, 'get_quantity': 0, 'expiration': 0, 'give_asset': '0', 'block_index': 310501, 'get_remaining': 0, 'give_quantity': 0}},
+                {'table': 'orders', 'values': {'get_asset': '0', 'tx_index': 502, 'fee_required': 0, 'status': 'invalid: could not unpack', 'source': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'fee_required_remaining': 0, 'give_remaining': 0, 'fee_provided_remaining': 10000, 'fee_provided': 10000, 'expire_index': 125179, 'get_quantity': 0, 'expiration': 0, 'give_asset': '0', 'block_index': 125179, 'get_remaining': 0, 'give_quantity': 0}},
             ]
         }, {
             'in': ({'btc_amount': None, 'block_time': 155409000, 'tx_hash': 'db6d9052b576d973196363e11163d492f50926c2f1d1efd67b3d999817b0d04d', 'tx_index': 502, 'supported': 1, 'source': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'block_hash': '2d62095b10a709084b1854b262de77cb9f4f7cd76ba569657df8803990ffbfc6c12bca3c18a44edae9498e1f0f054072e16eef32dfa5e3dd4be149009115b4b8', 'destination': None, 'block_index': DP['default_block'], 'data': b'\x00\x00\x00\n\x00\x06\xca\xd8\xdc\x7f\x0bf\x00\x00\x00\x00\x00\x00\x01\xf4\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00\x07\xd0\x00\x00\x00\x00\x00\x00\x00\x00', 'fee': 10000},),
@@ -798,7 +798,7 @@ UNITTEST_VECTOR = {
             ]
         }],
         'expire': [{
-            'in': (310500,),
+            'in': (125178,),
             'out': None
         }]
     },
@@ -831,29 +831,29 @@ UNITTEST_VECTOR = {
         }],
         'get_multisig_script': [{
             'in': ('1_030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb_034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b_2',),
-            'out': b'Q!\x02\x82\xb8\x86\xc0\x87\xeb7\xdc\x81\x82\xf1K\xa6\xcc>\x94\x85\xeda\x8b\x95\x80MD\xae\xcc\x17\xc3\x00\xb5\x85\xb0!\x03\x19\xf6\xe0{\x0b\x8duaV9K\x9d\xcf;\x01\x1f\xe9\xac\x19\xf2p\x0b\xd6\xb6\x9aj\x17\x83\xdb\xb8\xb9wR\xae'
+            'out': b'Q!\x03\na\xfc\x8b\xb0_\xb3\xfb\xed\xb6\xd7\x08?l\xb8\xf3\x9c\x12\xdd\xaeg2\xa0M\xf1\xf6SQ\x86WR\xbb!\x03C\t\xe2%?i\xbaX\xf2\xbf3L;\x9e\x992\xba\xa4\x7f6e\x8aZCa\x1f\xf9s\xd2O\xce[R\xae'
         }],
         'get_monosig_script': [{
             'in': (ADDR[1],),
-            'out': b'v\xa9\x14\x8dj\xe8\xa3\xb3\x81f1\x18\xb4\xe1\xef\xf4\xcf\xc7\xd0\x95M\xd6\xec\x88\xac'
+            'out': b'v\xa9\x14\x90\x01\xed\x94k\xb4y6\xfc\xfeW\xc7\xc8\xdf\xb4\xadj\xdc\xb4\xcb\x88\xac'
         }],
         'make_fully_valid': [{
             'in': (b'T\xdaT\x0f\xb2f;u\xe6\xc3\xcca\x19\n\xd0\xc2C\x16C\xba\xb2\x8c\xedx<\xd9@y\xbb\xe7$',),
             'out': b'\x02T\xdaT\x0f\xb2f;u\xe6\xc3\xcca\x19\n\xd0\xc2C\x16C\xba\xb2\x8c\xedx<\xd9@y\xbb\xe7$G'
         }],
         'serialise': [{
-            'in': ('multisig', [{'confirmations': 74, 'amount': 1.9990914, 'vout': 0, 'account': '', 'scriptPubKey': '76a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac', 'txid': 'ae241be7be83ebb14902757ad94854f787d9730fc553d6f695346c9375c0d8c1', 'address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'txhex': '0100000002eff195acdf2bbd215daa8aca24eb667b563a731d34a9ab75c8d8df5df08be29b000000006c493046022100ec6fa8316a4f5cfd69816e31011022acce0933bd3b01248caa8b49e60de1b98a022100987ba974b2a4f9976a8d61d94009cb7f7986a827dc5730e999de1fb748d2046c0121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bbffffffffeff195acdf2bbd215daa8aca24eb667b563a731d34a9ab75c8d8df5df08be29b010000006a47304402201f8fb2d62df22592cb8d37c68ab26563dbb8e270f7f8409ac0f6d7b24ddb5c940220314e5c767fd12b20116528c028eab2bfbad30eb963bd849993410049cf14a83d0121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bbffffffff02145fea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac0000000000000000346a32544553540000000a00000000000000010000000005f5e1000000000000000000000000000bebc2000032000000000000271000000000'}], [('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 5430)], ([b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x02\xfa\xf0\x80'], 7800), ('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 199885910), b'\x02\x82\xb8\x86\xc0\x87\xeb7\xdc\x81\x82\xf1K\xa6\xcc>\x94\x85\xeda\x8b\x95\x80MD\xae\xcc\x17\xc3\x00\xb5\x85\xb0'),
-            'out': b'\x01\x00\x00\x00\x01\xc1\xd8\xc0u\x93l4\x95\xf6\xd6S\xc5\x0fs\xd9\x87\xf7TH\xd9zu\x02I\xb1\xeb\x83\xbe\xe7\x1b$\xae\x00\x00\x00\x00\x19v\xa9\x14H8\xd8\xb3X\x8cL{\xa7\xc1\xd0o\x86n\x9b79\xc607\x88\xac\xff\xff\xff\xff\x036\x15\x00\x00\x00\x00\x00\x00\x19v\xa9\x14\x8dj\xe8\xa3\xb3\x81f1\x18\xb4\xe1\xef\xf4\xcf\xc7\xd0\x95M\xd6\xec\x88\xacx\x1e\x00\x00\x00\x00\x00\x00iQ!\x02bA[\xf0J\xf84B==\xd7\xad\xa4\xdcrz\x03\x08eu\x9f\x9f\xbaZ\xeex\xc9\xeaq\xe5\x87\x98!\x02T\xdaT\x0f\xb2f;u\xe6\xc3\xcca\x19\n\xd0\xc2C\x16C\xba\xb2\x8c\xedx<\xd9@y\xbb\xe7$G!\x02\x82\xb8\x86\xc0\x87\xeb7\xdc\x81\x82\xf1K\xa6\xcc>\x94\x85\xeda\x8b\x95\x80MD\xae\xcc\x17\xc3\x00\xb5\x85\xb0S\xaeV\x04\xea\x0b\x00\x00\x00\x00\x19v\xa9\x14H8\xd8\xb3X\x8cL{\xa7\xc1\xd0o\x86n\x9b79\xc607\x88\xac\x00\x00\x00\x00'
+            'in': ('multisig', [{'confirmations': 74, 'amount': 1.9990914, 'vout': 0, 'account': '', 'scriptPubKey': '76a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac', 'txid': 'ae241be7be83ebb14902757ad94854f787d9730fc553d6f695346c9375c0d8c1', 'address': 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'txhex': '0100000002eff195acdf2bbd215daa8aca24eb667b563a731d34a9ab75c8d8df5df08be29b000000006c493046022100ec6fa8316a4f5cfd69816e12478822acce0933bd3b01248caa8b49e60de1b98a022100987ba974b2a4f9976a8d61d94009cb7f7986a827dc5730e999de1fb748d2046c0121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bbffffffffeff195acdf2bbd215daa8aca24eb667b563a731d34a9ab75c8d8df5df08be29b010000006a47304402201f8fb2d62df22592cb8d37c68ab26563dbb8e270f7f8409ac0f6d7b24ddb5c940220314e5c767fd12b20116528c028eab2bfbad30eb963bd849993410049cf14a83d0121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bbffffffff02145fea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac0000000000000000346a32544553540000000a00000000000000010000000005f5e1000000000000000000000000000bebc2000032000000000000271000000000'}], [('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 5430)], ([b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x02\xfa\xf0\x80'], 7800), ('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 199885910), b'\x02\x82\xb8\x86\xc0\x87\xeb7\xdc\x81\x82\xf1K\xa6\xcc>\x94\x85\xeda\x8b\x95\x80MD\xae\xcc\x17\xc3\x00\xb5\x85\xb0'),
+            'out': b'\x01\x00\x00\x00\x01\xc1\xd8\xc0u\x93l4\x95\xf6\xd6S\xc5\x0fs\xd9\x87\xf7TH\xd9zu\x02I\xb1\xeb\x83\xbe\xe7\x1b$\xae\x00\x00\x00\x00\x19v\xa9\x14H8\xd8\xb3X\x8cL{\xa7\xc1\xd0o\x86n\x9b79\xc607\x88\xac\xff\xff\xff\xff\x036\x15\x00\x00\x00\x00\x00\x00\x19v\xa9\x14\x90\x01\xed\x94k\xb4y6\xfc\xfeW\xc7\xc8\xdf\xb4\xadj\xdc\xb4\xcb\x88\xacx\x1e\x00\x00\x00\x00\x00\x00iQ!\x02bA[\xf0J\xf84B==\xd7\xad\xa4\xdcrz\x03\x08eu\x9f\x9f\xbaZ\xeex\xc9\xeaq\xe5\x87\x98!\x02T\xdaT\x0f\xb2f;u\xe6\xc3\xcca\x19\n\xd0\xc2C\x16C\xba\xb2\x8c\xedx<\xd9@y\xbb\xe7$G!\x02\x82\xb8\x86\xc0\x87\xeb7\xdc\x81\x82\xf1K\xa6\xcc>\x94\x85\xeda\x8b\x95\x80MD\xae\xcc\x17\xc3\x00\xb5\x85\xb0S\xaeV\x04\xea\x0b\x00\x00\x00\x00\x19v\xa9\x14\x9c\xd9\x12ra\x12^\xa1\xa8|\x98\xe8>\xaa\x80\xf7\xccb\r\x83\x88\xac\x00\x00\x00\x00'
         },  {
             'in': ('multisig', [{'txid': 'e43c357b78baf473fd21cbc1481ac450746b60cf1d2702ce3a73a8811811e3eb', 'txhex': '0100000001980b1a29634f263b00e5301519c153edd65c9149445c9dfdf175b07782388a84000000006a4730440220438f0878ec34cbb676ad8d8badcf81d93a7748a7b85c5841c5bed024b0ad287602203bd635a7d15ccabe235da9cf5086e9a2611242b0e894bd2f9f66a1d4de3fff3d01210276e73c0c0b5af814085f9a9bec7421bc97bc84c4f5bbdf4f6973bd04e16765e7ffffffff0100e1f505000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac00000000', 'amount': 1.0, 'vout': 0, 'scriptPubKey': '76a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac', 'address': 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'confirmations': 2}], [('ndogepartyxxxxxxxxxxxxxxxxxxwpsZCH', 62000000)], None, ('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 37990000), None),
-            'out': b'\x01\x00\x00\x00\x01\xeb\xe3\x11\x18\x81\xa8s:\xce\x02\'\x1d\xcf`ktP\xc4\x1aH\xc1\xcb!\xfds\xf4\xbax{5<\xe4\x00\x00\x00\x00\x19v\xa9\x14\x8dj\xe8\xa3\xb3\x81f1\x18\xb4\xe1\xef\xf4\xcf\xc7\xd0\x95M\xd6\xec\x88\xac\xff\xff\xff\xff\x02\x80\x0b\xb2\x03\x00\x00\x00\x00\x19v\xa9\x14\xa1\x1bf\xa6{?\xf6\x96q\xc8\xf8"T\t\x9f\xaf7K\x80\x0e\x88\xacp\xaeC\x02\x00\x00\x00\x00\x19v\xa9\x14\x8dj\xe8\xa3\xb3\x81f1\x18\xb4\xe1\xef\xf4\xcf\xc7\xd0\x95M\xd6\xec\x88\xac\x00\x00\x00\x00'
+            'out': b"\x01\x00\x00\x00\x01\xeb\xe3\x11\x18\x81\xa8s:\xce\x02'\x1d\xcf`ktP\xc4\x1aH\xc1\xcb!\xfds\xf4\xbax{5<\xe4\x00\x00\x00\x00\x19v\xa9\x14\x8dj\xe8\xa3\xb3\x81f1\x18\xb4\xe1\xef\xf4\xcf\xc7\xd0\x95M\xd6\xec\x88\xac\xff\xff\xff\xff\x02\x80\x0b\xb2\x03\x00\x00\x00\x00\x19v\xa9\x14iq\x0e\xd9Z\xbc\x9d\x89\xd3\xe9c+\r\xdf\x0f\xba\xcb]\xbc\x9a\x88\xacp\xaeC\x02\x00\x00\x00\x00\x19v\xa9\x14\x90\x01\xed\x94k\xb4y6\xfc\xfeW\xc7\xc8\xdf\xb4\xadj\xdc\xb4\xcb\x88\xac\x00\x00\x00\x00"
         }],
         'get_dust_return_pubkey': [{
             'in': (ADDR[1], None, 'multisig'),
             'out': None
         },  {
             'in': (ADDR[1], [],'multisig'),
-            'out': b'\x03\x19\xf6\xe0{\x0b\x8duaV9K\x9d\xcf;\x01\x1f\xe9\xac\x19\xf2p\x0b\xd6\xb6\x9aj\x17\x83\xdb\xb8\xb9w'
+            'out': b'\x03C\t\xe2%?i\xbaX\xf2\xbf3L;\x9e\x992\xba\xa4\x7f6e\x8aZCa\x1f\xf9s\xd2O\xce['
         }],
         'construct': [{
             'in': (('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', [('ndogepartyxxxxxxxxxxxxxxxxxxwpsZCH', 62000000)], None), {'encoding': 'multisig', 'exact_fee': 1.0}),
@@ -887,23 +887,23 @@ UNITTEST_VECTOR = {
         }, {
             'comment': 'send',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', None)], b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x02\xfa\xf0\x80'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0336150000000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac781e0000000000006951210262415bf04af834423d3dd7ada4dc727a030865759f9fba5aee78c9ea71e58798210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae5604ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300e1f505000000001976a9149001ed946bb47936fcfe57c7c8dfb4ad6adcb4cb88ac00c2eb0b000000006951210262415bf04af834423d3dd7ada4dc727a030865759f9fba5aee78c9ea71e58798210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1421d617000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'send dest multisig',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2', None)], b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff03781e000000000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae781e0000000000006951210362415bf04af834423d3dd7ada4dc727a030865759f9fba5aee7fc6fbf1e5875a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae14fbe90b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300c2eb0b00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00c2eb0b000000006951210362415bf04af834423d3dd7ada4dc727a030865759f9fba5aee7fc6fbf1e5875a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1440e011000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'send dest multisig exact_fee',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2', None)], b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00'), {'encoding': 'multisig', 'exact_fee': 1}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff03781e000000000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae781e0000000000006951210362415bf04af834423d3dd7ada4dc727a030865759f9fba5aee7fc6fbf1e5875a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae2322ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300c2eb0b00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00c2eb0b000000006951210362415bf04af834423d3dd7ada4dc727a030865759f9fba5aee7fc6fbf1e5875a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1321d617000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'send dest opreturn',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2', None)], b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00'), {'encoding': 'opreturn'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff03781e000000000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00000000000000001e6a1c2a504df746f83442653dd7ada4dc727a030865749e9fba5aeb8fd21a8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300c2eb0b00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00000000000000001e6a1c2a504df746f83442653dd7ada4dc727a030865749e9fba5aeb8fd21a1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'send dest pubkeyhash',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2', None)], b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00'), {'encoding': 'pubkeyhash'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff04781e000000000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae36150000000000001976a9146d415bf04af834423d3dd7ada4dc727a0308657588ac36150000000000001976a9146f415bf04af834423d3cd7ada4dc778fe208657588ac20efe90b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0400c2eb0b00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00e1f505000000001976a9146d415bf04af834423d3dd7ada4dc727a0308657588ac00e1f505000000001976a9146f415bf04af834423d3cd7ada4dc778fe208657588ac1440e011000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'send dest 1-of-1',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_1', None)], b'\x00\x00\x00\x00\x00\x00\x00\xa2[\xe3Kf\x00\x00\x00\x00\x00\x00\x00\x00'), {'encoding': 'multisig'}),
@@ -919,15 +919,15 @@ UNITTEST_VECTOR = {
         }, {
             'comment': 'maximum quantity send',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', None)], b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03:>\x7f\xff\xff\xff\xff\xff\xff\xff'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0336150000000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac781e0000000000006951210362415bf04af834423d3dd7ada4dc727a0308664fa0e045a51185cce50ee58717210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae5604ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300e1f505000000001976a9149001ed946bb47936fcfe57c7c8dfb4ad6adcb4cb88ac00c2eb0b000000006951210362415bf04af834423d3dd7ada4dc727a0308664fa0e045a51185cce50ee58717210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1421d617000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'issuance',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [], b'\x00\x00\x00\x14\x00\x00\x00\x00\x00\x0b\xfc\xe3\x00\x00\x00\x00\x00\x00\x03\xe8\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210359415bf04af834423d3dd7adb0dc727a03086e897d9fba5aee7a331919e4871d210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b000000006951210359415bf04af834423d3dd7adb0dc727a03086e897d9fba5aee7a331919e4871d210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'issuance',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', None)], b'\x00\x00\x00\x14\x00\x00\x00\xa2[\xe3Kf\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0336150000000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac781e0000000000006951210259415bf04af834423d3dd7adb0dc727aa153863ef89fba5aee7a331af1e4873a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae5604ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300e1f505000000001976a9149001ed946bb47936fcfe57c7c8dfb4ad6adcb4cb88ac00c2eb0b000000006951210259415bf04af834423d3dd7adb0dc727aa153863ef89fba5aee7a331af1e4873a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1421d617000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'multisig issuance',
             'in': (('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2', [], b'\x00\x00\x00\x14\x00\x00\x00\x00\x00\x0b\xfc\xe3\x00\x00\x00\x00\x00\x00\x03\xe8\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'), {'encoding': 'multisig'}),
@@ -935,15 +935,15 @@ UNITTEST_VECTOR = {
         }, {
             'comment': 'maximum quantity issuance',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [], b'\x00\x00\x00\x14\x00\x00\x00\x00\xdd\x96\xd2t\x7f\xff\xff\xff\xff\xff\xff\xff\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10Maximum quantity'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210249415bf04af834423d3dd7adb0dc727a03d5f3a7eae045a51185cce50ee4877e210354da540fb2663b75f68ead197067a5af636736dbdcf8840c45d94079bbe724cb21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b000000006951210249415bf04af834423d3dd7adb0dc727a03d5f3a7eae045a51185cce50ee4877e210354da540fb2663b75f68ead197067a5af636736dbdcf8840c45d94079bbe724cb21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'transfer asset to multisig',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2', None)], b'\x00\x00\x00\x14\x00\x00\x00\xa2[\xe3Kf\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff03781e000000000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae781e0000000000006951210259415bf04af834423d3dd7adb0dc727aa153863ef89fba5aee7a331af1e4873a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae14fbe90b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300c2eb0b00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00c2eb0b000000006951210259415bf04af834423d3dd7adb0dc727aa153863ef89fba5aee7a331af1e4873a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1440e011000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'order',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [], b'\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00'), {'encoding': 'multisig','fee_provided': DP['fee_provided']}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210348415bf04af834423d3dd7adaedc727a030865759e9fba5aee78c9ea71e5870f210354da540fb2673b75e6c3c994f80ad0c8431643bab28ced783cd94079bbe7244521030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae5cfeda0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b000000006951210348415bf04af834423d3dd7adaedc727a030865759e9fba5aee78c9ea71e5870f210354da540fb2673b75e6c3c994f80ad0c8431643bab28ced783cd94079bbe7244521030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'multisig order',
             'in': (('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2', [], b'\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\xfa\xf0\x80\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00'), {'encoding': 'multisig','fee_provided': DP['fee_provided']}),
@@ -955,19 +955,19 @@ UNITTEST_VECTOR = {
         }, {
             'comment': 'maximum quantity order',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [], b'\x00\x00\x00\n\x00\x00\x00\x00\x00\x03:>\x7f\xff\xff\xff\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x05\xf5\xe1\x00\x00\n\x00\x00\x00\x00\x00\r\xbb\xa0'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210248415bf04af834423d3dd7adaedc727a0308664fa0e045a51185cce50ee58759210354da540fb2673b75e6c3c994f80ad0c8431643bab28156d83cd94079bbe7245221030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b000000006951210248415bf04af834423d3dd7adaedc727a0308664fa0e045a51185cce50ee58759210354da540fb2673b75e6c3c994f80ad0c8431643bab28156d83cd94079bbe7245221030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'dividend',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [], b'\x00\x00\x002\x00\x00\x00\x00\x05\xf5\xe1\x00\x00\x00\x00\xa2[\xe3Kf\x00\x00\x00\x00\x00\x00\x00\x01'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e000000000000695121035a415bf04af834423d3dd7ad96dc727a030d90949e9fba5a4c21d05197e58735210254da540fb2673b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7246f21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b00000000695121035a415bf04af834423d3dd7ad96dc727a030d90949e9fba5a4c21d05197e58735210254da540fb2673b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7246f21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'dividend',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [], b'\x00\x00\x002\x00\x00\x00\x00\x00\x00\x00\x01\x00\x06\xca\xd8\xdc\x7f\x0bf\x00\x00\x00\x00\x00\x00\x00\x01'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e000000000000695121025a415bf04af834423d3dd7ad96dc727a030865759f9fbc9036a64c1197e587c8210254da540fb2673b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7246f21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b00000000695121025a415bf04af834423d3dd7ad96dc727a030865759f9fbc9036a64c1197e587c8210254da540fb2673b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7246f21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'comment': 'free issuance',
             'in': (('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', [], b'\x00\x00\x00\x14\xff\xff\xff\xff\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x03\xe8\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'), {'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210259415bf04af834423d3dd7adb0238d85fcf79a8a619fba5aee7a331919e487e8210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b000000006951210259415bf04af834423d3dd7adb0238d85fcf79a8a619fba5aee7a331919e487e8210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }],
     },
     'api': {
@@ -1022,7 +1022,7 @@ UNITTEST_VECTOR = {
             'out': None
         }, {
             'comment': 'invalid bitcoin address: bad checksum',
-            'in': ('mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP7',),
+            'in': ('nmznV1biAxernGXzQwMLCyktfySy5C5ZViu',),
             'error': (script.Base58ChecksumError, 'Checksum mismatch: 0x00285aa2 ≠ 0x00285aa1')
         }, {
             'comment': 'valid multi‐sig',
@@ -1047,36 +1047,36 @@ UNITTEST_VECTOR = {
         }],
         'base58_check_encode': [{
             'comment': 'valid mainnet bitcoin address',
-            'in': ('010966776006953d5567439e5e39f86a0d273bee', b'\x00'),
-            'out': '16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM'
+            'in': ('34a915fbe52c74705be0472fe689520542a81e5b', b'\x1e'),
+            'out': 'D9wYEXUHRVp93hVi1UpqmTzFczfT3V3e7B'
         # TODO }, {
         #    'invalid mainnet bitcoin address: leading zero byte,
-        #    'in': ('SOMETHING', b'\x00'),
+        #    'in': ('SOMETHING', b'\x1e'),
         #    'error': (script.AddressError, 'encoded address does not decode properly')
         }],
         'base58_check_decode': [{
             'comment': 'valid mainnet bitcoin address',
-            'in': ('16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM', b'\x00'),
-            'out': b"\x01\tfw`\x06\x95=UgC\x9e^9\xf8j\r';\xee"
+            'in': ('D9wYEXUHRVp93hVi1UpqmTzFczfT3V3e7B', b'\x1e'),
+            'out': b'4\xa9\x15\xfb\xe5,tp[\xe0G/\xe6\x89R\x05B\xa8\x1e['
         }, {
             'comment': 'wrong version byte',
-            'in': ('26UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM', b'\x00'),
+            'in': ('26UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM', b'\x1e'),
             'error': (script.VersionByteError, 'incorrect version byte')
         }, {
             'comment': 'invalid mainnet bitcoin address: bad checksum',
-            'in': ('16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvN', b'\x00'),
+            'in': ('16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvN', b'\x1e'),
             'error': (script.Base58ChecksumError, 'Checksum mismatch: 0xd61967f7 ≠ 0xd61967f6')
         }, {
             'in': (ADDR[0], b'\x6f'),                                                               # TODO: What is this?
             'out': b'H8\xd8\xb3X\x8cL{\xa7\xc1\xd0o\x86n\x9b79\xc607'
         }, {
             'comment': 'invalid mainnet bitcoin address: invalid character',
-            'in': ('16UwLL9Risc3QfPqBUvKofHmBQ7wMtjv0', b'\x00'),
+            'in': ('16UwLL9Risc3QfPqBUvKofHmBQ7wMtjv0', b'\x1e'),
             'error': (script.Base58Error, "Not a valid Base58 character: ‘0’")
         }],
         'is_multisig': [{
             'comment': 'mono‐sig',
-            'in': ('16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM',),
+            'in': ('D9wYEXUHRVp93hVi1UpqmTzFczfT3V3e7B',),
             'out': False
         }, {
             'comment': 'multi‐sig',
@@ -1097,11 +1097,11 @@ UNITTEST_VECTOR = {
             'out': False
         }],
         'make_canonical': [{
-            'in': ('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2',),                   # TODO: Pubkeys out of order
-            'out': '1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2'
+            'in': ('1_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_2',),                   # TODO: Pubkeys out of order
+            'out': '1_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_2'
         }, {
             'in': ('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2',),                   # TODO: Pubkeys out of order
-            'out': '1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2'
+            'out': '1_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_2'
         }, {
             'comment': 'mono‐sig',
             'in': ('niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F',),
@@ -1145,14 +1145,14 @@ UNITTEST_VECTOR = {
         }],
         'extract_array': [{
             'in': ('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2',),
-            'out': (1, ['niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65'], 2)
+            'out': (1, ['nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F'], 2)
         }],
         'pubkeyhash_array': [{
             'in': ('1_xxxxxxxxxxxWRONGxxxxxxxxxxxxxxxxxx_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2',),
             'error': (script.MultiSigAddressError, 'Invalid PubKeyHashes. Multi‐signature address must use PubKeyHashes, not public keys.')
         }, {
             'in': ('1_niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F_nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65_2',),
-            'out': ['niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F', 'nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65']
+            'out': ['nhKbsrhki5U9WUKyCwqqhqZN5CwzWmXk65', 'niVVidMwAXNtBsh8cPVXPssaHp1PKtZR6F']
         }],
         'is_pubkeyhash': [{
             'comment': 'valid bitcoin address',
@@ -1160,7 +1160,7 @@ UNITTEST_VECTOR = {
             'out': True
         }, {
             'comment': 'invalid checksum',
-            'in': ('mnMrocns5kBjPZxRxXb5A1gx7gAoRZWPP7',),
+            'in': ('nmznV1biAxernGXzQwMLCyktfySy5C5ZViu',),
             'out': False
         }, {
             'comment': 'invalid version byte',
@@ -1196,16 +1196,16 @@ UNITTEST_VECTOR = {
             'out': '0100000001ebe3111881a8733ace02271dcf606b7450c41a48c1cb21fd73f4ba787b353ce4000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88acffffffff02800bb203000000001976a914a11b66a67b3ff69671c8f82254099faf374b800e88ac70ae4302000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac00000000'
         }, {
             'in': ('create_send', {'source': ADDR[0], 'destination': ADDR[1], 'asset': 'XDP', 'quantity': DP['small'], 'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0336150000000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac781e0000000000006951210262415bf04af834423d3dd7ada4dc727a030865759f9fba5aee78c9ea71e58798210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae5604ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300e1f505000000001976a9149001ed946bb47936fcfe57c7c8dfb4ad6adcb4cb88ac00c2eb0b000000006951210262415bf04af834423d3dd7ada4dc727a030865759f9fba5aee78c9ea71e58798210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1421d617000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'in': ('create_issuance', {'source': ADDR[0], 'transfer_destination': None, 'asset': 'BSSET', 'quantity': 1000, 'divisible': True, 'description': '', 'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210359415bf04af834423d3dd7adb0dc727a03086e897d9fba5aee7a331919e4871d210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b000000006951210359415bf04af834423d3dd7adb0dc727a03086e897d9fba5aee7a331919e4871d210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'in': ('create_issuance', {'source': ADDR[0], 'transfer_destination': ADDR[1], 'asset': 'DIVISIBLE', 'quantity': 0, 'divisible': True, 'description': '', 'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0336150000000000001976a9148d6ae8a3b381663118b4e1eff4cfc7d0954dd6ec88ac781e0000000000006951210259415bf04af834423d3dd7adb0dc727aa153863ef89fba5aee7a331af1e4873a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae5604ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300e1f505000000001976a9149001ed946bb47936fcfe57c7c8dfb4ad6adcb4cb88ac00c2eb0b000000006951210259415bf04af834423d3dd7adb0dc727aa153863ef89fba5aee7a331af1e4873a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1421d617000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'in': ('create_order', {'source': ADDR[0], 'give_asset': 'DOGE', 'give_quantity': DP['small'], 'get_asset': 'XDP', 'get_quantity': DP['small'] * 2, 'expiration': DP['expiration'], 'fee_required': 0, 'fee_provided': DP['fee_provided'], 'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210348415bf04af834423d3dd7adaedc727a030865759e9fba5aee78c9ea71e5870f210354da540fb2673b75e6c3c994f80ad0c8431643bab28ced783cd94079bbe7244521030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae5cfeda0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b000000006951210348415bf04af834423d3dd7adaedc727a030865759e9fba5aee78c9ea71e5870f210354da540fb2673b75e6c3c994f80ad0c8431643bab28ced783cd94079bbe7244521030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'in': ('create_order', {'source': ADDR[0], 'give_asset': 'XDP', 'give_quantity': round(DP['small'] * 2.1), 'get_asset': 'DOGE', 'get_quantity': DP['small'], 'expiration': DP['expiration'], 'fee_required': DP['fee_required'], 'encoding': 'multisig'}),
             'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210248415bf04af834423d3dd7adaedc727a030865759f9fba5aee7c7136b1e58715210354da540fb2663b75e6c3ce9be98ad0c8431643bab28156d83cd94079bbe7246021030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
@@ -1214,7 +1214,7 @@ UNITTEST_VECTOR = {
             'out': '0100000001051511b66ba309e3dbff1fde22aefaff4190675235a010a5c6acb1e43da8005f00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52aeffffffff0280f0fa02000000001976a914a11b66a67b3ff69671c8f82254099faf374b800e88ac70c9fa0200000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00000000'
         }, {
             'in': ('create_send', {'source': ADDR[0], 'destination': MULTISIGADDR[0], 'asset': 'XDP', 'quantity': DP['quantity'], 'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff03781e000000000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae781e0000000000006951210362415bf04af834423d3dd7ada4dc727a030865759f9fba5aee7fc6fbf1e5875a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae14fbe90b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300c2eb0b00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00c2eb0b000000006951210362415bf04af834423d3dd7ada4dc727a030865759f9fba5aee7fc6fbf1e5875a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1440e011000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'in': ('create_send', {'source': MULTISIGADDR[0], 'destination': ADDR[0], 'asset': 'XDP', 'quantity': DP['quantity'], 'encoding': 'multisig'}),
             'out': '0100000001051511b66ba309e3dbff1fde22aefaff4190675235a010a5c6acb1e43da8005f00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52aeffffffff0336150000000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac781e0000000000006951210334caf7ca87f0fd78a01d9a0d68221e55beef3722da8be72d254dd351c26108892102bc14528340c27d005aa9e2913fd8c032ffa94625307a450077125d580099b57d21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae4286f50500000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00000000'
@@ -1226,7 +1226,7 @@ UNITTEST_VECTOR = {
             'out': '0100000001051511b66ba309e3dbff1fde22aefaff4190675235a010a5c6acb1e43da8005f00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52aeffffffff02781e000000000000695121030fcaf7ca87f0fd78a01d9a0d7c221e55beef3cde388be72d254826b32a6008cb2102bc14528340c27d005aa9e2913fd8c032ffa94625307a450077125d580099b57d21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae789bf50500000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00000000'
         }, {
             'in': ('create_issuance', {'source': ADDR[0], 'transfer_destination': MULTISIGADDR[0], 'asset': 'DIVISIBLE', 'quantity': 0, 'divisible': True, 'description': '', 'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff03781e000000000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae781e0000000000006951210259415bf04af834423d3dd7adb0dc727aa153863ef89fba5aee7a331af1e4873a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae14fbe90b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0300c2eb0b00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00c2eb0b000000006951210259415bf04af834423d3dd7adb0dc727aa153863ef89fba5aee7a331af1e4873a210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1440e011000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'in': ('create_issuance', {'source': ADDR[0], 'asset': 'A{}'.format(2**64 - 1), 'quantity': 1000, 'encoding': 'multisig'}),
             'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e0000000000006951210259415bf04af834423d3dd7adb0238d85fcf79a8a619fba5aee7a331919e487e8210254da540fb2663b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7244721030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
@@ -1238,7 +1238,7 @@ UNITTEST_VECTOR = {
             'out': '0100000001051511b66ba309e3dbff1fde22aefaff4190675235a010a5c6acb1e43da8005f00000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52aeffffffff02781e000000000000695121031ecaf7ca87f0fd78a01d9a0d62221e55beef3722da8be72d254e649c8261083d2102bc14528340c27d005aa9e06bcf58c038ffa946253077fea077125d580099b5bb21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae789bf50500000000475121030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb21034309e2253f69ba58f2bf334c3b9e9932baa47f36658a5a43611ff973d24fce5b52ae00000000'
         }, {
             'in': ('create_dividend', {'source': ADDR[0], 'quantity_per_unit': DP['quantity'], 'asset': 'DIVISIBLE', 'dividend_asset': 'XDP', 'encoding': 'multisig'}),
-            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e000000000000695121035a415bf04af834423d3dd7ad96dc727a030d90949e9fba5a4c21d05197e58735210254da540fb2673b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7246f21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
+            'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff0200c2eb0b00000000695121035a415bf04af834423d3dd7ad96dc727a030d90949e9fba5a4c21d05197e58735210254da540fb2673b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7246f21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae1402cc1d000000001976a9149cd9127261125ea1a87c98e83eaa80f7cc620d8388ac00000000'
         }, {
             'in': ('create_dividend', {'source': ADDR[0], 'quantity_per_unit': 1, 'asset': 'NODIVISIBLE', 'dividend_asset': 'XDP', 'encoding': 'multisig'}),
             'out': '0100000001c1d8c075936c3495f6d653c50f73d987f75448d97a750249b1eb83bee71b24ae000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788acffffffff02781e000000000000695121025a415bf04af834423d3dd7ad96dc727a030865759f9fbc9036a64c1197e587c8210254da540fb2673b75e6c3cc61190ad0c2431643bab28ced783cd94079bbe7246f21030a61fc8bb05fb3fbedb6d7083f6cb8f39c12ddae6732a04df1f65351865752bb53ae8c19ea0b000000001976a9144838d8b3588c4c7ba7c1d06f866e9b3739c6303788ac00000000'
@@ -1319,7 +1319,7 @@ UNITTEST_VECTOR = {
         }],
         'last_message': [{
             'in': (),
-            'out': {'command': 'insert', 'block_index': 310496, 'message_index': 79, 'category': 'sends', 'timestamp': 0, 'bindings': '{"asset": "XDP", "block_index": 310496, "destination": "nW8dXfYakP7aSyPuzEcAdFyrjFXimPkvct", "quantity": 92945878046, "source": "nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH", "status": "valid", "tx_hash": "54f4c7b383ea19147e62d2be9f3e7f70b6c379baac15e8b4cf43f7c21578c1ef", "tx_index": 497}'}
+            'out': {'command': 'insert', 'block_index': 125174, 'message_index': 79, 'category': 'sends', 'timestamp': 0, 'bindings': '{"asset": "XDP", "block_index": 125174, "destination": "nW8dXfYakP7aSyPuzEcAdFyrjFXimPkvct", "quantity": 92945878046, "source": "nUtoWndFgmzPquS2iJAFUPEtVhRX7jfobH", "status": "valid", "tx_hash": "54f4c7b383ea19147e62d2be9f3e7f70b6c379baac15e8b4cf43f7c21578c1ef", "tx_index": 497}'}
         }],
         'get_asset_id': [{
             'in': ('XDP', DP['default_block']),
