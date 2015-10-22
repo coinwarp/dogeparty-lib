@@ -1,22 +1,22 @@
-[![Build Status Travis](https://travis-ci.org/CounterpartyXCP/counterparty-lib.svg?branch=develop)](https://travis-ci.org/CounterpartyXCP/counterparty-lib)
-[![Build Status Circle](https://circleci.com/gh/CounterpartyXCP/counterparty-lib.svg?&style=shield)](https://circleci.com/gh/CounterpartyXCP/counterparty-lib)
-[![Coverage Status](https://coveralls.io/repos/CounterpartyXCP/counterparty-lib/badge.png?branch=develop)](https://coveralls.io/r/CounterpartyXCP/counterparty-lib?branch=develop)
-[![Latest Version](https://pypip.in/version/counterparty-lib/badge.svg)](https://pypi.python.org/pypi/counterparty-lib/)
-[![License](https://pypip.in/license/counterparty-lib/badge.svg)](https://pypi.python.org/pypi/counterparty-lib/)
+[![Build Status Travis](https://travis-ci.org/CounterpartyXCP/dogeparty-lib.svg?branch=develop)](https://travis-ci.org/CounterpartyXCP/dogeparty-lib)
+[![Build Status Circle](https://circleci.com/gh/CounterpartyXCP/dogeparty-lib.svg?&style=shield)](https://circleci.com/gh/CounterpartyXCP/dogeparty-lib)
+[![Coverage Status](https://coveralls.io/repos/CounterpartyXCP/dogeparty-lib/badge.png?branch=develop)](https://coveralls.io/r/CounterpartyXCP/dogeparty-lib?branch=develop)
+[![Latest Version](https://pypip.in/version/dogeparty-lib/badge.svg)](https://pypi.python.org/pypi/dogeparty-lib/)
+[![License](https://pypip.in/license/dogeparty-lib/badge.svg)](https://pypi.python.org/pypi/dogeparty-lib/)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/CounterpartyXCP/General)
 
 
 # Description
-`counterparty-lib` is the reference implementation of the [Counterparty Protocol](https://counterparty.io).
+`dogeparty-lib` is the reference implementation of the [Counterparty Protocol](https://dogeparty.io).
 
-**Note:** for the command-line interface that used to be called `counterpartyd`, see [`counterparty-cli`](https://github.com/CounterpartyXCP/counterparty-cli).
+**Note:** for the command-line interface that used to be called `dogepartyd`, see [`dogeparty-cli`](https://github.com/CounterpartyXCP/dogeparty-cli).
 
 
 # Requirements
-* [Patched Bitcoin Core](https://github.com/btcdrak/bitcoin/releases) with the following options set:
+* Patched Dogecoin Core with the following options set:
 
 	```
-	rpcuser=bitcoinrpc
+	rpcuser=dogecoinrpc
 	rpcpassword=<password>
 	server=1
 	txindex=1
@@ -31,8 +31,8 @@
 # Installation
 
 ```
-$ git clone https://github.com/CounterpartyXCP/counterparty-lib.git
-$ cd counterparty-lib
+$ git clone https://github.com/CounterpartyXCP/dogeparty-lib.git
+$ cd dogeparty-lib
 $ python3 setup.py install
 ```
 
@@ -41,7 +41,7 @@ $ python3 setup.py install
 
 ```
 $ python3
->>> from counterpartylib import server
+>>> from dogepartylib import server
 >>> db = server.initialise(<options>)
 >>> server.start_all(db)
 ```
@@ -49,4 +49,4 @@ $ python3
 
 # Further Reading
 
-* [Official Project Documentation](http://counterparty.io/docs/)
+* Official Project Documentation
