@@ -10,6 +10,7 @@ VERSION_MINOR = 59
 VERSION_REVISION = 4
 VERSION_STRING = str(VERSION_MAJOR) + '.' + str(VERSION_MINOR) + '.' + str(VERSION_REVISION)
 
+VERSION_FILE = 'https://counterpartyxcp.github.io/counterparty-lib/counterpartylib/protocol_changes.json'
 
 # Counterparty protocol
 TXTYPE_FORMAT = '>I'

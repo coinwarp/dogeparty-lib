@@ -16,7 +16,7 @@ import appdirs
 import platform
 from urllib.parse import quote_plus as urlencode
 
-from dogepartylib.lib import api, config, util, exceptions, blocks, check, backend, database, transaction, script, log
+from dogepartylib.lib import api, config, util, exceptions, blocks, check, backend, backend_server, database, transaction, script, log
 
 D = decimal.Decimal
 
@@ -367,6 +367,9 @@ def start_all(db):
     api_server = api.APIServer()
     api_server.daemon = True
     api_server.start()
+
+    # Queries
+    backend_server.start()
 
     # Server.
     blocks.follow(db)

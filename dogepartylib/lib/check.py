@@ -11,6 +11,7 @@ from dogepartylib.lib import util
 from dogepartylib.lib import exceptions
 from dogepartylib.lib import backend
 from dogepartylib.lib import database
+from dogepartylib.lib import backend_server
 
 CONSENSUS_HASH_SEED = 'We can only see a short distance ahead, but we can see plenty there that needs to be done.'
 
@@ -124,12 +125,9 @@ def software_version():
         return
     logger.debug('Checking version.')
 
-    try:
-        host = 'https://counterpartyxcp.github.io/counterparty-lib/counterpartylib/protocol_changes.json'
-        response = requests.get(host, headers={'cache-control': 'no-cache'})
-        versions = json.loads(response.text)
-    except (requests.exceptions.ConnectionError, ConnectionRefusedError, ValueError) as e:
-        logger.warning('Unable to check version! ' + str(sys.exc_info()[1]))
+    versions = backend_server.get_versions()
+    if not versions:
+        logger.warning('Unable to check version, likely due to disconnection')
         return
 
     for change_name in versions:
